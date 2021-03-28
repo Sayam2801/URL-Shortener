@@ -1,0 +1,6 @@
+POST http://localhost:3000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.amazon.in/Barcelona-Prestige-Soccer-Royal-University/dp/B07F6T22FC/ref=asc_df_B07F6T22FC/?tag=googleshopdes-21&linkCode=df0&hvadid=397010837977&hvpos=&hvnetw=g&hvrand=11897359527031578530&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061674&hvtargid=pla-524070882410&psc=1&ext_vrnc=hi"
+}
