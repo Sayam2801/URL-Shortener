@@ -24,7 +24,6 @@ router.post("/shorten", async (req,res) => {
     {
         try{
             let url = await Url.findOne({ longUrl });
-
             if(url)
                res.json(url);
             else 
@@ -44,7 +43,7 @@ router.post("/shorten", async (req,res) => {
             }
         } catch(err) {
             console.error(err);
-            res.json(500).json("Server error");
+            res.status(500).json("Server error");
         }
     }
     else 
